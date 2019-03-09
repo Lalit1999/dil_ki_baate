@@ -1,0 +1,30 @@
+.subp
+{
+	color : white ;
+	display: inline-block ;
+	font-size: 3rem ;
+	border-radius: 1rem ;
+	margin: 2rem 3rem ;
+	padding: 6.5rem 3rem 3rem ;
+	border : 1px solid black ;
+	min-width: 24vw ;
+	min-height: 33.5vh ;
+	transition: all 0.5s ;
+}
+
+.text
+{	font-size: 3rem ;
+	color: white;
+	margin-top: 3em ;
+
+}
+
+.text:hover
+{
+	color: white ;
+}
+
+.subp:hover
+{
+	transform: scale(1.05);
+}
