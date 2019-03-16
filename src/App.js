@@ -8,6 +8,7 @@ import Shayari from './comps/Items/Shayari.js' ;
 import Quote from './comps/Items/Quote.js' ;
 import Dohe from './comps/Items/Dohe.js' ;
 import Poem from './comps/Items/Poem.js' ;
+import Content from './comps/Content/Content.js' ;
 
 class App extends Component {
  
@@ -18,11 +19,15 @@ class App extends Component {
           <div>
             <Header />
             <Route path='/' exact component={Home} />
-            <Route path='/shayari' component={Shayari} />
-            <Route path='/quote' component={Quote} />
-            <Route path='/dohe' component={Dohe} />
-            <Route path='/poem' component={Poem} />
-
+            <Route path='/shayari'exact component={Shayari} />
+            <Route path='/quote' exact component={Quote} />
+            <Route path='/dohe' exact component={Dohe} />
+            <Route path='/poem' exact component={Poem} />
+            <Route path='/shayari/:tag' component={Content} />
+            <Route path='/quote/:tag' component={Content} />
+            <Route path='/dohe/:tag' component={Content} />
+            <Route path='/poem/:tag' component={Content} />
+            
           </div>
         </BrowserRouter>          
       </div>

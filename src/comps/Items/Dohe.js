@@ -11,19 +11,19 @@ class Dohe extends React.Component
 		super() ;
 		this.arr = [
 		{
-			title : 'shayari' ,
+			title : 'Sant Kabir' ,
 			color : 'salmon' ,
 		},
 		{
-			title : 'quote' ,
+			title : 'Rahim' ,
 			color : 'dodgerBlue' ,
 		},
 		{
-			title : 'dohe' ,
+			title : 'Tulsi Das' ,
 			color : 'rosyBrown' ,
 		},
 		{
-			title : 'poem' ,
+			title : 'Others' ,
 			color : 'blueViolet' ,
 		},
 		] ;

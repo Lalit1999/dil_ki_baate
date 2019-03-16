@@ -11,19 +11,19 @@ class Quote extends React.Component
 		super() ;
 		this.arr = [
 		{
-			title : 'shayari' ,
+			title : 'Motivational' ,
 			color : 'salmon' ,
 		},
 		{
-			title : 'quote' ,
+			title : 'Love' ,
 			color : 'dodgerBlue' ,
 		},
 		{
-			title : 'dohe' ,
+			title : 'Religon' ,
 			color : 'rosyBrown' ,
 		},
 		{
-			title : 'poem' ,
+			title : 'Others' ,
 			color : 'blueViolet' ,
 		},
 		] ;

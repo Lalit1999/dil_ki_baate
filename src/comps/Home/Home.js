@@ -9,19 +9,19 @@ class Home extends React.Component
 		super() ;
 		this.arr = [
 		{
-			title : 'shayari' ,
+			title : 'Shayari' ,
 			color : 'salmon' ,
 		},
 		{
-			title : 'quote' ,
+			title : 'Quote' ,
 			color : 'dodgerBlue' ,
 		},
 		{
-			title : 'dohe' ,
+			title : 'Dohe' ,
 			color : 'rosyBrown' ,
 		},
 		{
-			title : 'poem' ,
+			title : 'Poem' ,
 			color : 'blueViolet' ,
 		},
 		] ;

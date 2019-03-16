@@ -1,20 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Merienda+One');
 
 #bar
 {
   overflow: hidden;
-  background-color: sienna;
+  background-color: rgb(65,39,12);
   margin-bottom: 0 ;
+  position: fixed;
+  top: 0 ;
+  width: 100% ;
+  z-index: 4 ;
 }
 
 .link
-{	font-size: 2.1rem ;
+{	font-size: 2rem ;
 	text-decoration: none ;
 	color : white !important;
-	font-family : 'Roboto', sans-serif ;
+	font-family: 'Merienda One', cursive;
+	transition: all 0.5s !important ;
 }
 
 .link:hover
 {	color : white !important ;
-	
+	transform: scale(1.1) ;
 }
+

@@ -2,7 +2,7 @@
 
 .panel
 {
-	margin : 0vh 11.5vw 4vh ;
+	margin : 12vh 11.5vw 4vh ;
 	background-color: rgba(255,255,255,0.5) ;
 	box-shadow: 0 0.5rem 5rem rgba(0, 0, 0, 0.4) ;
 	padding: 2em 3em ;
@@ -24,5 +24,5 @@ h2
 {	font-weight: 700 ;
 	font-size: 8rem ;
 	font-family: 'Tangerine', cursive;
-
+	margin-bottom: 0 ;
 }
