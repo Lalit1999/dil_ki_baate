@@ -12,19 +12,19 @@ class Dohe extends React.Component
 		this.arr = [
 		{
 			title : 'Sant Kabir' ,
-			color : 'salmon' ,
+			color : 'rgba(250,128,114,0.7)' ,
 		},
 		{
 			title : 'Rahim' ,
-			color : 'dodgerBlue' ,
+			color : 'rgba(30,144,255,0.7)' ,
 		},
 		{
 			title : 'Tulsi Das' ,
-			color : 'rosyBrown' ,
+			color : 'rgba(188,143,143,0.7)' ,
 		},
 		{
 			title : 'Others' ,
-			color : 'blueViolet' ,
+			color : 'rgba(148,43,226,0.7)' ,
 		},
 		] ;
 	}

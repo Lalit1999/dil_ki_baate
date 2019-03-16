@@ -5,7 +5,7 @@ import './Subpanel.css' ;
 const Subpanel = (props) =>{
 	let link = (window.location.pathname === '/' ? props.title : window.location.pathname + '/' + props.title) ;
 	return (
-		<div className='subp' style={{backgroundColor: props.color}}>
+		<div className='subp' style={{background: props.color}}>
 			<Link to={link} className="text">
 				{props.title}
 			</Link>
