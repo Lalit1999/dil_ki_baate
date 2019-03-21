@@ -12,16 +12,16 @@ class Shayari extends React.Component
 		this.arr = [
 		{
 			title : 'Romantic' ,
-			color : 'salmon' ,
+			color : 'Salmon' ,
 			/*background_image : 'url('.photo1.jpg')' ,*/
 		},
 		{
 			title : 'Sad' ,
-			color : 'Dodgerblue' ,
+			color : 'DodgerBlue' ,
 		},
 		{
 			title : 'Motivational' ,
-			color : 'Rosybrown' ,
+			color : 'RosyBrown' ,
 		},
 		{
 			title : 'Comedy' ,
@@ -29,11 +29,11 @@ class Shayari extends React.Component
 		},
 		{
 			title : 'Patriotic' ,
-			color : 'salmon' ,
+			color : 'Salmon' ,
 		},
 		{
 			title : 'Others' ,
-			color : 'Dodgerblue' ,
+			color : 'DodgerBlue' ,
 		},
 		
 		] ;
