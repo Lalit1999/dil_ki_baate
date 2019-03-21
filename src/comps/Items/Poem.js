@@ -12,19 +12,19 @@ class Poem extends React.Component
 		this.arr = [
 		{
 			title : 'Children' ,
-			color : 'rgba(250,128,114,0.7)' ,
+			color : 'salmon' ,
 		},
 		{
 			title : 'Patriotic' ,
-			color : 'rgba(30,144,255,0.7)' ,
+			color : 'Dodgerblue' ,
 		},
 		{
 			title : 'Motivational' ,
-			color : 'rgba(188,143,143,0.7)' ,
+			color : 'Rosybrown' ,
 		},
 		{
 			title : 'Happy' ,
-			color : 'rgba(148,43,226,0.7)' ,
+			color : 'Blueviolet' ,
 		},
 		] ;
 	}

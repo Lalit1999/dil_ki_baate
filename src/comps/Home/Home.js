@@ -10,19 +10,19 @@ class Home extends React.Component
 		this.arr = [
 		{
 			title : 'Shayari' ,
-			color : 'rgba(250,128,114,0.7)' ,
+			color : 'salmon' ,
 		},
 		{
 			title : 'Quote' ,
-			color : 'rgba(30,144,255,0.7)' ,
+			color : 'Dodgerblue' ,
 		},
 		{
 			title : 'Dohe' ,
-			color : 'rgba(188,143,143,0.7)' ,
+			color : 'Rosybrown' ,
 		},
 		{
 			title : 'Poem' ,
-			color : 'rgba(148,43,226,0.7)' ,
+			color : 'Blueviolet' ,
 		},
 		] ;
 	}

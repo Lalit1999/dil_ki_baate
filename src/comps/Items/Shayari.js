@@ -2,7 +2,7 @@ import React from 'react' ;
 
 import Heading from '../Heading/Heading.js' ;
 import SubpanelList from '../Subpanel/SubpanelList.js' ;
-
+ 
 
 class Shayari extends React.Component
 {	
@@ -12,27 +12,28 @@ class Shayari extends React.Component
 		this.arr = [
 		{
 			title : 'Romantic' ,
-			color : 'rgba(250,128,114,0.7)' ,
+			color : 'salmon' ,
+			/*background_image : 'url('.photo1.jpg')' ,*/
 		},
 		{
 			title : 'Sad' ,
-			color : 'rgba(30,144,255,0.7)' ,
+			color : 'Dodgerblue' ,
 		},
 		{
 			title : 'Motivational' ,
-			color : 'rgba(188,143,143,0.7)' ,
+			color : 'Rosybrown' ,
 		},
 		{
 			title : 'Comedy' ,
-			color : 'rgba(148,43,226,0.7)' ,
+			color : 'Blueviolet' ,
 		},
 		{
 			title : 'Patriotic' ,
-			color : 'rgba(250,128,114,0.7)' ,
+			color : 'salmon' ,
 		},
 		{
 			title : 'Others' ,
-			color : 'rgba(30,144,255,0.7)' ,
+			color : 'Dodgerblue' ,
 		},
 		
 		] ;
