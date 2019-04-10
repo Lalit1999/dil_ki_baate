@@ -1,0 +1,21 @@
+.img-con
+{
+	display: inline-block; 
+	box-shadow : 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); 
+	margin: 1.2rem ;
+	transition: all 0.5s ;
+	border-radius: 1rem ;
+	/*border : 1px solid black;*/
+}
+
+.img-con img
+{
+	width: 425px ;
+	height : 425px ;
+	border-radius: 1rem ;
+}
+
+.img-con:hover
+{
+	transform: scale(1.1) ;
+}

@@ -13,7 +13,7 @@ class Shayari extends React.Component
 		{
 			title : 'Romantic' ,
 			color : 'Salmon' ,
-			/*background_image : 'url('.photo1.jpg')' ,*/
+			// background_image : './photo1.jpg' ,
 		},
 		{
 			title : 'Sad' ,
@@ -32,9 +32,18 @@ class Shayari extends React.Component
 			color : 'Salmon' ,
 		},
 		{
-			title : 'Others' ,
+			title : 'Inspirational' ,
 			color : 'DodgerBlue' ,
 		},
+		{
+			title : 'Life' ,
+			color : 'RosyBrown' ,
+		},
+		{
+			title : 'Moral' ,
+			color : 'BlueViolet' ,
+		},
+		
 		
 		] ;
 	}

@@ -11,11 +11,11 @@ class Dohe extends React.Component
 		super() ;
 		this.arr = [
 		{
-			title : 'Sant Kabir' ,
+			title : 'Kabir' ,
 			color : 'Salmon' ,
 		},
 		{
-			title : 'Sant Rahim' ,
+			title : 'Rahim' ,
 			color : 'DodgerBlue' ,
 		},
 		{

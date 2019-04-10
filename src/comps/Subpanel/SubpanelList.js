@@ -3,13 +3,12 @@ import Subpanel from './Subpanel.js' ;
 
 class SubpanelList extends React.Component
 {	createPanels = () =>{
-		return this.props.list.map( (subp, i) => <Subpanel title ={subp.title} color ={subp.color} background_image ={subp.background_image} key={i} />) ;
+		return this.props.list.map( (subp, i) => <Subpanel title ={subp.title} color ={subp.color} key={i} />) ;
 	}	
 	render()
 	{
 		return (
 			<div >
-
 				{this.createPanels()}
 			</div>
 		) ;
@@ -17,4 +16,3 @@ class SubpanelList extends React.Component
  }
 
  export default SubpanelList ;
- 
